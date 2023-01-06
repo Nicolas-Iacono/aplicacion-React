@@ -1,0 +1,12 @@
+import React from 'react';
+import '../Hojas-d-estilo/Display.css';
+
+
+
+const Display = ({ input }) => (
+    <div className='input'>
+        {input}
+    </div>
+);
+
+export default Display;
